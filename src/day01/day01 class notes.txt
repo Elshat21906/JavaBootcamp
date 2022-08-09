@@ -110,7 +110,7 @@ Custom Methods: Fuction
 			Paramer:Data-Type
 
 
-Method overloading: multiple different methods sharing the same method name
+Method overloading (static/compiletime polymorphism): multiple different methods sharing the same method name
 
 
 Class & Object: Class is a template of objects, where all objects came from
@@ -193,9 +193,75 @@ OOP: Object oreinted programming
 			flexible
 			...
 
-Encapsulation
+Encapsulation: data hiding by giving private access modifier.
+			   use public getter/setter to use the data outside the class
+
+			   Getter: Read ONLY
+			   Setter: Write ONLY
 		
 		POJO
+
+Inheritance: Building IS A Relation (parent&child or super/sub) between classes
+			
+			class A extends Class B
+				sub              super
+
+			sub class: can inherit all the variable and methods that are visible	
+
+			super class: does not inherit anything from sub class
+
+
+			BasePage:
+				BasePage(){
+					PageFactory.initElement(driver, this);
+				}
+
+			pages extends BasePage
+
+				@FindBy(xpath="")
+				Webelement element;
+
+
+			TestBase:
+				driver
+
+				@BeforeMethod
+
+				@AfterMethod
+
+				@BeforeClass
+
+				@AfterClass
+
+			TestClass1 extends TestBase
+
+			TestClass2 extends TestBase
+
+			TestClass3 extends TestBase
+
+			TestClass4 extends TestBase
+
+
+	Cucumber annotations: @When, @Then, @Given, @Before, @After ...
+					classes can not be inherited if they have cucumber annotations
+
+
+Method Overriding (dynamic/runtime polymrophism): giving different implementation to the method
+					
+					MUST happen in sub class
+
+					can not override static, final and private methods
+
+					toString()
+
+					equals()
+
+					WebDriver driver= new ChromerDriver();
+					driver.get("URL")
+
+
+
+
 
 
 
