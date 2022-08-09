@@ -161,10 +161,41 @@ Import statements:
 
 
 
+Memory Allocation: process of allocating the objects
+	Heap: Objects, Instance variables, static variables (AFter Java 8 version)
+
+	stack: Method invocations, Local variables
+
+	Non-Heap Memory: Methods area, static variables (Before Java 8 version)
 
 
+@CucumberOptions(
+	"usage" : ""
+)
+
+driver = null
 
 
+Memory Deallocation: process of removing the unreference objects from the heap
+
+
+Access Modifiers:  public > proctected > default > private
+
+
+OOP: Object oreinted programming
+			Less code
+			Readable
+			Reusable
+			Maintainable
+			Centralized structure
+			less duplication
+			less memory usage
+			flexible
+			...
+
+Encapsulation
+		
+		POJO
 
 
 

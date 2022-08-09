@@ -65,6 +65,7 @@ public class CustomMethods<T> { // T: Dynamic Type =======> works with multiple 
         int max = maxNumOfIntArray(arr3);
 
 
+       // printArrayElement();
 
 
     }
