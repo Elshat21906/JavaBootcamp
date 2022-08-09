@@ -261,7 +261,43 @@ Method Overriding (dynamic/runtime polymrophism): giving different implementatio
 
 
 
+final keyword: unchanagble
+		
+		variable: can not be reassigned
 
+		method: can not be overriden
+
+		class: can not be inherited
+
+
+final vs finally vs finalize
+
+
+Abstraction: hiding the implementation details from the user
+			 Focus on essentials
+
+			 Abstract method: method without the body
+
+			 2 ways:
+			 	1. abstract class: meant to be parent class
+
+			 			Ex: BasePage, TestBase
+
+
+			 	2. Interface: blueprint of the class, meant to be implemented
+			 					to provide addition methods through the multiple inheritance
+
+	 					Ex: 
+	 						WebDriver
+	 						WebElement
+	 						TakeScreenShot
+	 						JavaScriptExecuter
+	 						....
+	 						List
+	 						Set
+	 						Collection
+	 						Map
+	 						....
 
 
 
