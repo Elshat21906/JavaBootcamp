@@ -314,6 +314,22 @@ Polymorphism: ability of the object to take on many forms
 			  		}
 
 
+Exceptions: checked or unchecked
+		
+		unchecked exceptions: occurs during the runtime
+
+		checked exceptions: occur during the compile time
+
+	throw: used for manually creating exception
+
+
+Exception Handlings
+		
+		1. try & catch: can handle any exception
+
+		2. throws: ONLY for the checked exception
+
+
 
 
 
