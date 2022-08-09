@@ -48,6 +48,10 @@ Type castings:
 			2.1 Up-casting: casting smaller reference type to larger reference type
 			2.2 Down-casting: casting larger reference type to smaller reference type
 
+			WebDriver driver = new FireFoxDriver();
+			( (TakeScreenShot)driver).takeScreenShot();
+			((JavaScriptExecuter)driver).executeScript();
+
 
 Wrapper Classes: the objects that represents the primitives
 
@@ -298,6 +302,39 @@ Abstraction: hiding the implementation details from the user
 	 						Collection
 	 						Map
 	 						....
+
+
+
+Polymorphism: ability of the object to take on many forms
+			  reference type decides what is accessible
+
+			  Driver:
+			  		WebDriver  getDriver(){
+
+			  		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
