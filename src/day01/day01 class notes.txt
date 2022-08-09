@@ -366,6 +366,19 @@ Collection (I): size is dynamic
 
 
 
+Map (I): Collection of Pairs (key + value)
+	 Size is dynamic
+	 ONLy supports non-primitives
+	 Can not be multi-dimensional
+	 Key must be unique
+
+	 HashMap (C): Random order
+
+	 LinkedHashMap (C): Insertion order
+
+	 TreeMap (C): Sorted Order. key can not be null
+
+	 Hashtable (C): Random order. synchronized. both key and value can not be null
 
 
 
