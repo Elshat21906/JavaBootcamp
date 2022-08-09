@@ -330,6 +330,38 @@ Exception Handlings
 		2. throws: ONLY for the checked exception
 
 
+Collection (I): size is dynamic
+				ONLy supports non-primitives
+				Can not be multi-dimensional
+
+		List (I): Accepts duplicates, has index
+
+				ArrayList (C): Array based class. searching/accessing the elemet is faster. not synchronized
+
+				LinkedList (C): Node based class. insertion & deletion are faster.  not synchronized
+
+				Vector (C): Array based class. synchronized
+
+				Stack (C): Array based class. synchronized. LIFO (pop())
+
+				List<WebElements>
+				List<Map>
+
+
+		Set (I): Does not accepts duplicates, does not has index
+
+				HashSet (C): random order, accepts null
+
+				LinkedHashSet (C): Insertion order, accepts null
+
+				TreeSet (C): sorted order. does not accept null
+
+
+				getWindowHandles()
+				Set<WebElement>
+
+		Queue (I): Accepts duplicates, does not has index. FIFO (poll())
+
 
 
 
