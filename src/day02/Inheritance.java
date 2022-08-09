@@ -1,5 +1,6 @@
 package day02;
 
+
 class A {
     public A(){
         System.out.println("A");
